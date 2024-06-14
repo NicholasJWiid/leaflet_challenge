@@ -31,7 +31,7 @@ This project is broken into two parts:
 ### References
    * [The US Geological Survey](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
    * [Tectonic plate boundaries](https://github.com/fraxen/tectonicplates)
-   * [Additional baselayes for Leaflet](https://leaflet-extras.github.io/leaflet-providers/preview/)
+   * [Additional baselayers for Leaflet](https://leaflet-extras.github.io/leaflet-providers/preview/)
 
 
 
