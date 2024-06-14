@@ -1,9 +1,9 @@
 # leaflet_challenge
 
 ## Background
-The United States Geological Survey, or USGS, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. Their scientists develop new methods and tools to supply timely, relevant, and useful information about the Earth and its processes.
+The United States Geological Survey, or USGS, is responsible for providing scientific data about natural hazards, the health of our ecosystems and environment, and the impacts of climate and land-use change. Included in their database are global earthquake records, showing date and time, location, magnitude, depth, among other event details.
 
-The aim of the project to visualize USGS global earthquake data using Leaflet and Javascript, showing all earthquake locations by size and depth.
+The aim of the project to visualize all global earthquakes for the past week using Leaflet and Javascript, showing earthquake locations by size and depth.
 
 The project is broken into two parts:
 
