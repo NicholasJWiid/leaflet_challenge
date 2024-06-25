@@ -11,8 +11,9 @@ d3.json(geo_Data).then(function(data) {
 });
 
 function colorpicker(earthquake_depth) {
-    if (earthquake_depth >= 50) return "#810f7c";
-    else if (earthquake_depth >= 10) return "#8856a7";
+    if (earthquake_depth >= 100) return "#6e016b"
+    else if (earthquake_depth >= 50) return "#88419d";
+    else if (earthquake_depth >= 10) return "#8c6bb1";
     else if (earthquake_depth >= 8) return "#8c96c6";
     else if (earthquake_depth >= 6) return "#9ebcda";
     else if (earthquake_depth >= 4) return "#bfd3e6";
@@ -89,14 +90,14 @@ function createMap(earthquakes) {
     var legend = L.control({position: "bottomleft"});
     legend.onAdd = function(earthquakes) {
         var div = L.DomUtil.create('div', 'info legend');
-        grades = [0, 4, 6, 8, 10, 50]
+        grades = [0, 4, 6, 8, 10, 50, 100]
         var labels = [];
         console.log(earthquakes)
         
         var legendInfo = "<h3>Earthquake depth in kms</h3>" +
         "<div class=\"labels\">" +
         "<div class=\"min\">" + grades[0] + "</div>" +
-        "<div class=\"max\">" + grades[grades.length - 1] + "</div>" +
+        "<div class=\"max\">" + grades[grades.length - 1] + "+" + "</div>" +
         "</div>"
 
         div.innerHTML = legendInfo;
